@@ -1,0 +1,30 @@
+spring:
+    application:
+        name: edgeserver
+
+server:
+  port: 8090
+
+zuul:
+  ignoredServices: "*"
+  routes:
+    API1:
+      path: /API1/**
+      stripPrefix: true
+      serviceId: API1
+    AGGREGATEAPI:
+      path: /AGGREGATEAPI/**
+      stripPrefix: true
+      serviceId: AGGREGATEAPI
+
+eureka:
+  client:
+    serviceUrl:
+#For test on Docker Compose
+#      defaultZone: http://svcregistry:1111/eureka/
+#For test on localhost
+      defaultZone: http://localhost:1111/eureka/
+    fetchRegistry: true
+    registryFetchIntervalSeconds: 2
+    healthcheck:
+        enabled: true

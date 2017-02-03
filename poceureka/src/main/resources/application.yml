@@ -1,0 +1,16 @@
+server:
+  port: 1111
+
+eureka:
+  instance:
+    hostname: svcregistry
+  server:
+    enableSelfPreservation: false
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF

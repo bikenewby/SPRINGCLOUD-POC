@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: API1
+  output:
+    ansi:
+      enabled: ALWAYS
+  cloud:
+    config:
+      uri: http://localhost:8888

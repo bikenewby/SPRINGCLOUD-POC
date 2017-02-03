@@ -1,0 +1,18 @@
+spring:
+  application:
+        name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+#-- For test on Docker Compose
+#          uri: file://hostvolume/springconfigrepo
+#-- For test based on local file system
+          uri: file://F:\My Projects - Engagements\SCB_APIs_Design\Delivery\POC\springconfigrepo
+#          uri: F:\My Projects - Engagements\SCB_APIs_Design\Delivery\POC\springconfigrepo
+#-- For test based on config stored in github
+#          uri: https://github.com/bikenewby/POCSpringConfigServer
+
+server:
+  port: 8888
+

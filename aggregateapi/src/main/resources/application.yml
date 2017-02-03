@@ -1,0 +1,27 @@
+spring:
+  application:
+        name: AggregateAPI
+  output:
+    ansi:
+      enabled: ALWAYS
+
+server:
+  port: 8057
+#  port: 0 #Random port number
+
+logging:
+  file: logs/CASA-API.log
+
+eureka:
+  client:
+    serviceUrl:
+#--- For test with Docker Compose
+#      defaultZone: http://svcregistry:1111/eureka/
+#--- For test with localhost
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 8
+    metadata-map:
+      management.port: ${management.port:8081}

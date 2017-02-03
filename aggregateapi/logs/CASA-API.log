@@ -1,0 +1,20 @@
+2017-02-04 00:08:26.146 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 9800 --- [main] com.scb.apipoc.AggregateAPI              : No active profile set, falling back to default profiles: default
+2017-02-04 00:08:44.094 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 9800 --- [main] com.scb.apipoc.AggregateAPI              : Started AggregateAPI in 21.472 seconds (JVM running for 26.411)
+2017-02-04 00:09:17.380 [32m INFO[0;39m [33m[bootstrap,62db5339708a0071,15d3335d3194c822,false][0;39m 9800 --- [http-nio-8057-exec-3] com.scb.apipoc.AggregateAPI              : resource3... initiated
+2017-02-04 00:09:21.433 [32m INFO[0;39m [33m[bootstrap,50929d33f29f2e16,3b6681734e217611,false][0;39m 9800 --- [http-nio-8057-exec-4] com.scb.apipoc.AggregateAPI              : resource3... initiated
+2017-02-04 00:09:58.687 [32m INFO[0;39m [33m[bootstrap,2fd250b5f2afe14b,165d38cdd325715a,false][0;39m 9800 --- [http-nio-8057-exec-5] com.scb.apipoc.AggregateAPI              : resource3... initiated
+2017-02-04 00:10:30.979 [32m INFO[0;39m [33m[bootstrap,ed94a1ff96047d55,c9ca3737d8b2ca20,false][0;39m 9800 --- [http-nio-8057-exec-6] com.scb.apipoc.AggregateAPI              : resource4... initiated
+2017-02-04 00:13:12.510 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 1464 --- [main] com.scb.apipoc.AggregateAPI              : No active profile set, falling back to default profiles: default
+2017-02-04 00:13:31.411 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 1464 --- [main] com.scb.apipoc.AggregateAPI              : Started AggregateAPI in 22.795 seconds (JVM running for 29.139)
+2017-02-04 00:13:31.786 [32m INFO[0;39m [33m[bootstrap,5f870ff75856c98e,3e9d6cb05d393f39,false][0;39m 1464 --- [http-nio-8057-exec-1] com.scb.apipoc.AggregateAPI              : resource4... initiated
+2017-02-04 00:13:35.855 [32m INFO[0;39m [33m[bootstrap,46e20e0e63e89af3,f90fbf24b9e1b575,false][0;39m 1464 --- [http-nio-8057-exec-2] com.scb.apipoc.AggregateAPI              : resource3... initiated
+2017-02-04 00:15:23.046 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 5892 --- [main] com.scb.apipoc.AggregateAPI              : No active profile set, falling back to default profiles: default
+2017-02-04 00:15:53.356 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 6644 --- [main] com.scb.apipoc.AggregateAPI              : No active profile set, falling back to default profiles: default
+2017-02-04 00:16:10.997 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 6644 --- [main] com.scb.apipoc.AggregateAPI              : Started AggregateAPI in 21.446 seconds (JVM running for 27.163)
+2017-02-04 00:16:29.829 [32m INFO[0;39m [33m[bootstrap,f3df03bc4ef6e7e3,d8ba4008f31d5cff,false][0;39m 6644 --- [http-nio-8057-exec-1] com.scb.apipoc.AggregateAPI              : resource4... initiated
+2017-02-04 00:16:33.169 [32m INFO[0;39m [33m[bootstrap,36e6e3394b76d4ab,7d918d0716671f9c,false][0;39m 6644 --- [http-nio-8057-exec-2] com.scb.apipoc.AggregateAPI              : resource3... initiated
+2017-02-04 00:20:13.416 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 8008 --- [main] com.scb.apipoc.AggregateAPI              : No active profile set, falling back to default profiles: default
+2017-02-04 00:20:30.443 [32m INFO[0;39m [33m[bootstrap,,,][0;39m 8008 --- [main] com.scb.apipoc.AggregateAPI              : Started AggregateAPI in 20.792 seconds (JVM running for 26.746)
+2017-02-04 00:20:44.948 [32m INFO[0;39m [33m[bootstrap,2150bcedfc166b49,4865a73058916c80,false][0;39m 8008 --- [http-nio-8057-exec-1] com.scb.apipoc.AggregateAPI              : resource4... initiated
+2017-02-04 00:20:47.843 [32m INFO[0;39m [33m[bootstrap,441df48b3e14b4c2,c033568ca0b86785,false][0;39m 8008 --- [http-nio-8057-exec-2] com.scb.apipoc.AggregateAPI              : resource3... initiated
+2017-02-04 00:23:12.077 [32m INFO[0;39m [33m[bootstrap,3001ea56ecd427aa,41fc427e2412f536,false][0;39m 8008 --- [http-nio-8057-exec-4] com.scb.apipoc.AggregateAPI              : resource4... initiated

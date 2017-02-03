@@ -1,0 +1,17 @@
+server:
+  port: 3333
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+  client:
+    serviceUrl:
+#-- For test on Docker Compose
+#      defaultZone: http://svcregistry:1111/eureka/
+#-- For test on localhost
+      defaultZone: http://localhost:1111/eureka/
+
+turbine:
+  aggregator:
+    clusterConfig: SAMPLE-HYSTRIX-AGGREGATE
+  appConfig: SAMPLE-HYSTRIX-AGGREGATE

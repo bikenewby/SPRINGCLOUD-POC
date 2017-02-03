@@ -1,0 +1,7 @@
+2017-01-20 14:28:44.139 [32m INFO[0;39m [33m[POCAPIs,,,][0;39m 8356 --- [main] com.scb.apipoc.API1                   : No active profile set, falling back to default profiles: default
+2017-01-20 14:29:05.782 [32m INFO[0;39m [33m[POCAPIs,,,][0;39m 8356 --- [main] com.scb.apipoc.API1                   : Started POCAPIs in 26.842 seconds (JVM running for 31.571)
+2017-01-20 14:29:17.108 [32m INFO[0;39m [33m[POCAPIs,3d91ecf9d7b8a977,90c69cc11ed0228,false][0;39m 8356 --- [http-nio-8040-exec-1] com.scb.apipoc.API1                   : available initiated
+2017-01-20 14:30:08.987 [32m INFO[0;39m [33m[POCAPIs,41a3728e60c5823b,423742ec8b728f6f,false][0;39m 8356 --- [http-nio-8040-exec-2] com.scb.apipoc.API1                   : available initiated
+2017-01-20 14:30:10.803 [32m INFO[0;39m [33m[POCAPIs,6fd3961afe7d0fda,2c13fea5576d576c,false][0;39m 8356 --- [http-nio-8040-exec-3] com.scb.apipoc.API1                   : available initiated
+2017-01-20 14:42:46.223 [32m INFO[0;39m [33m[POCAPIs,,,][0;39m 11204 --- [main] com.scb.apipoc.API1                   : No active profile set, falling back to default profiles: default
+2017-01-20 14:43:07.394 [32m INFO[0;39m [33m[POCAPIs,,,][0;39m 11204 --- [main] com.scb.apipoc.API1                   : Started POCAPIs in 26.626 seconds (JVM running for 31.479)

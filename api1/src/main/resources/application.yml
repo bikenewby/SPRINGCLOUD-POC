@@ -1,0 +1,22 @@
+server:
+  port: 8040
+  contextPath: /rest/v1
+#  port: 0 #Random port number
+
+logging:
+  file: logs/API1.log
+
+eureka:
+  client:
+    serviceUrl:
+#--- For test with Docker Compose
+#      defaultZone: http://svcregistry:1111/eureka/
+#--- For test on localhost
+      defaultZone: http://localhost:1111/eureka/
+
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 8
+    metadata-map:
+      management.port: ${management.port:8081}
