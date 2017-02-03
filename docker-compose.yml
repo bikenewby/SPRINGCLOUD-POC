@@ -1,0 +1,43 @@
+svcregistry:
+  image: scbpoc/poc-eureka
+  ports:
+    - "1111:1111"
+
+api1:
+  image: scbpoc/api1
+  links:
+    - svcregistry
+
+aggregate-api:
+  image: scbpoc/aggregate-api
+  links:
+    - svcregistry
+    - api1
+
+turbine-host:
+  image: scbpoc/turbine-host
+  ports:
+    - "3333:3333"    
+  links:
+    - svcregistry
+    - api1
+    - aggregate-api
+
+hystrix-dashboard:
+  image: scbpoc/hystrix-dashboard
+  ports:
+    - "2222:2222"    
+  links:
+    - turbine-host
+    - api1
+    - aggregate-api
+
+edgeserver:
+  image: scbpoc/zuulpoc-gateway
+  ports:
+    - "8090:8090"
+  links:
+    - svcregistry    
+    - api1
+    - aggregate-api
+
